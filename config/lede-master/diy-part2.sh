@@ -32,6 +32,11 @@ sed -i 's/192.168.1.1/192.168.1.222/g' package/base-files/files/bin/config_gener
 rm -rf package/luci-app-amlogic
 git clone https://github.com/ophub/luci-app-amlogic.git package/luci-app-amlogic
 #
+#openappfilter
+git clone https://github.com/destan19/OpenAppFilter.git package/OpenAppFilter
+rm -rf package/luci-app-oaf
+
+#
 # Apply patch
 # git apply ../config/patches/{0001*,0002*}.patch --directory=feeds/luci
 #
