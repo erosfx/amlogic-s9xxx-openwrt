@@ -11,6 +11,3 @@
 
 # other
 # rm -rf package/lean/{samba4,luci-app-samba4,luci-app-ttyd}
-
-#openappfilter
-git clone https://github.com/destan19/OpenAppFilter.git package/OpenAppFilter
